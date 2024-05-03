@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1">
+        <title>Polska Placówka | Serwer SCP:SL</title>
+        <link rel="icon" type="image/x-icon" href="/images/logo.jpg">
+        <meta content="Polska Placówka | Serwer SCP:SL" property="og:title" />
+    <meta content="Strona główna nowego serwera SCP:SL - Polska Placówka." property="og:description" />
+    <meta content="images/logo.jpg" property="og:image" />
+    <meta content="#ff392b" data-react-helmet="true" name="theme-color" />
+    <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1 id="title" class="title">Polska Placówka | SCP:SL</h1>
+        <div id="content" class="content">
+            <div id="opis">
+                <h3 id="opis_title" class="opis_title">O serwerze</h3>
+                <p id="opis_text" class="opis_text">Witaj na stronie Polskiej Placówki! Serwer powstał w 2024 roku przez <b><span id="tworca" class="tworca">Wojtmic</span></b>. Poniżej znajduje się regulamin serwera oraz serwer discord. Cieszymy się, że tutaj jesteś!</p>
+            </div>
+            <div id="regulamin" class="regulamin">
+              <h3 id="regulamin_title" class="regulamin_title">Regulamin</h3>
+              <p id="regulamin_text" class="regulamin_text">1. Zakaz obrażania na tle religijnym i rasowym.
+                <br>
+                2. Zakaz cheatowania/exploitowania.
+                <br>
+                3. Zakaz griefingu i teamkillu.
+                <br>
+                4. Zakaz przedłużania rundy.
+                <br>
+                5. Każdy użytkownik serwera musi przestrzegać regulaminu, nawet członkowie administracji.
+                <br>
+                6. Klasa D i Rebelia Chaosu mogą teamować się z SCP, ale nie muszą tego robić.
+                <br>
+                7. Baw się dobrze!
+              </p>
+            </div>
+            
+            <a href="https://discord.gg/RKn5vmcEGz" class="content_discordBtn">Nasz Discord</a>
+        </div>
+        <p id="copyright" class="copyright">Copyright © <script>document.write(/\d{4}/.exec(Date())[0])</script> Polska Placówka | Wszystkie prawa zastrzeżone.</p>
+            <p id="creator" class="creator">Strona stworzona przez <b>HAHOOS</b> i <b>Tymon3310</b></p>
+    </body>
+
+    <script>
+        window.onload = (event) => {
+         const resizeOps = () => {
+    document.documentElement.style.setProperty("--vh", window.innerHeight * 0.01 + "px");
+  };
+
+  resizeOps();
+  window.addEventListener("resize", resizeOps);
+};
+    </script>
+</html>
